@@ -1,9 +1,10 @@
 # Improving-Writing-Assistance-at-JetBrains-Ai
 
 # Spell Checker Evaluation and Analysis
+
 This project compares the performance of four different spell-checking tools: Pyspell, Autocorrect, TextBlob, and Spello. Using a custom evaluation function, we measured each tool’s effectiveness and efficiency across various metrics, structured into three primary categories:
 
-# Classification Metrics – Evaluates the spell checkers' ability to identify misspellings.
+# Classification Metrics
 
 Metrics: Precision, Recall, F1-Score, Identifying Accuracy
 
@@ -16,17 +17,23 @@ Speed – Assesses the speed of each tool in words per second, which is crucial 
 # Key Findings
 
 TextBlob achieved the highest accuracy and F1-score, making it the best choice for identifying misspelled words.
-Spello demonstrated the highest correction rate and speed, processing over 500 words per second, making it suitable for real-time or high-volume applications.
+
+Spello demonstrated the highest correction rate and speed, processing over 500 words per second, making it suitable for real-time or high-volume applications.ž
+
 Pyspell and Autocorrect provided balanced performance in both detection and correction but didn’t surpass TextBlob or Spello in any category.
 
 # Technologies and Libraries
 
 Python and Jupyter Notebook: Main tools for implementation and visualization.
+
 scikit-learn: Used for calculating precision, recall, and F1-score.
+
 editdistance: Utilized for computing the average edit distance metric.
+
 Spell-checking libraries: Pyspell, Autocorrect, TextBlob, Spello.
 
 # Project Structure
+
 notebooks/: Contains the Jupyter Notebook file with detailed metric explanations, formulas, and analysis.
 scripts/: Python scripts used to run and test each spell checker.
 data/: Sample test data used in evaluation.
