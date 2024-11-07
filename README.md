@@ -2,7 +2,7 @@
 
 # Spell Checker Evaluation and Analysis
 
-This project compares the performance of four different spell-checking tools: Pyspell, Autocorrect, TextBlob, and Spello. Using a custom evaluation function, we measured each tool’s effectiveness and efficiency across various metrics, structured into three primary categories:
+This project compares the performance of four different spell-checking tools: Pyspell, Autocorrect, TextBlob, and Spello. Using a custom evaluation function, I measured each tool’s effectiveness and efficiency across various metrics, structured into three primary categories.
 
 # Classification Metrics
 
