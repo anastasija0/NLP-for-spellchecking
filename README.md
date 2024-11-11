@@ -6,13 +6,13 @@ This project compares the performance of four different spell-checking tools: Py
 
 # Classification Metrics
 
-Metrics: Precision, Recall, F1-Score, Identifying Accuracy
+**Metrics:** Precision, Recall, F1-Score, Identifying Accuracy
 
-Correction Metrics – Measures how well each tool corrects identified misspellings.
+**Correction Metrics** – Measures how well each tool corrects identified misspellings.
 
-Metrics: Percentage of Correct Fixes, Percentage of Non-Fixed Misspellings with Correct Suggestion in Top-5, Percentage of Broken Valid Words, Percentage of Invalid Words Remaining
+**Metrics:** Percentage of Correct Fixes, Percentage of Non-Fixed Misspellings with Correct Suggestion in Top-5, Percentage of Broken Valid Words, Percentage of Invalid Words Remaining
 
-Speed – Assesses the speed of each tool in words per second, which is crucial for large-scale text processing.
+**Speed** – Assesses the speed of each tool in words per second, which is crucial for large-scale text processing.
 
 # Key Findings
 
@@ -35,9 +35,12 @@ Spell-checking libraries: Pyspell, Autocorrect, TextBlob, Spello.
 # Project Structure
 
 notebooks/: Contains the Jupyter Notebook file with detailed metric explanations, formulas, and analysis.
+
 scripts/: Python scripts used to run and test each spell checker.
+
 data/: Sample test data used in evaluation.
 
 # How to Run
 See the Jupyter Notebook to see the detailed evaluation process, or execute individual scripts for each spell checker.
+
 This project provides a thorough and quantitative analysis of popular spell-checking tools, useful for developers looking to integrate efficient and accurate spell-checking capabilities into their applications.
