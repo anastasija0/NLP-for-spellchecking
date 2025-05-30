@@ -1,4 +1,4 @@
-# Improving-Writing-Assistance-at-JetBrains-Ai
+# Improving-Writing-Assistance
 
 # Spell Checker Evaluation and Analysis
 
